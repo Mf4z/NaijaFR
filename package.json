@@ -1,0 +1,29 @@
+{
+  "name": "naijafr",
+  "version": "1.0.0",
+  "description": "E-commerce Platform connecting France to Naija built with the MERN stack",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mf4z/NaijaFR.git"
+  },
+  "keywords": [
+    "MERN",
+    "E-commerce",
+    "Naija",
+    "FR"
+  ],
+  "author": "Marwan Mai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mf4z/NaijaFR/issues"
+  },
+  "homepage": "https://github.com/Mf4z/NaijaFR#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
