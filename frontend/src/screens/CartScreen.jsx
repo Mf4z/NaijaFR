@@ -27,6 +27,10 @@ const CartScreen = () => {
   const addToCartHandler = async (product, qty) => {
     dispatch(addToCart({ ...product, qty }));
   };
+
+  const checkoutHandler = () => {
+    navigate("/login?redirect=/shipping");
+  };
   return (
     <Row>
       <Col md={8}>
@@ -92,7 +96,8 @@ const CartScreen = () => {
               <Button
                 type="button"
                 className="btn-block"
-                disabled={cartItems.length === 0}>
+                disabled={cartItems.length === 0}
+                onClick={checkoutHandler}>
                 Proceed To Checkout
               </Button>
             </ListGroup.Item>
