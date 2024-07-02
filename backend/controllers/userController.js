@@ -73,7 +73,7 @@ const logoutUser = asyncHandler(async (req, res) => {
 // @route GET /api/users/profile
 // @access Private
 const getUserProfile = asyncHandler(async (req, res) => {
-  res.send("get user profile");
+  const user = await User.findById(req.user._id);
 });
 
 // @desc Update user profile
