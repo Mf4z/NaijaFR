@@ -14,8 +14,8 @@ E-commerce store linking Naija - France
 - Admin user management
 - Admin Order details page
 - Mark orders as delivered option
-- Checkout process (shipping, payment method, etc) `(in progress)`
-- PayPal / credit card integration `(in progress)`
+- Checkout process (shipping, payment method, etc)
+- PayPal / credit card integration
 - Database seeder (products & users)
 
 ## Usage
